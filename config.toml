@@ -1,0 +1,26 @@
+baseURL = "https://isaac-maya.github.io/essays/"
+languageCode = "en-us"
+title = "Isaac Maya's Blog"
+theme = "paper"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'github.com/isaac-maya'                 # github.com/YOUR_GITHUB_ID
+  linkedin = 'linkedin.com/in/isaac-maya/'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  rss = true                                # show rss icon
+
+  # home page profile
+  #avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  name = 'Isaac Maya'
+  #bio = 'YOUR_BIO'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  #gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  math = true   
