@@ -1,6 +1,6 @@
-baseURL = 'https://isaac-maya.github.io/essays/'
-languageCode = 'en-us'
-title = 'Isaac Maya's Blog'
+baseURL = "https://isaac-maya.github.io/essays/"
+languageCode = "en-us"
+title = "Isaac Maya's Blog"
 theme = "paper"
 
 [params]
