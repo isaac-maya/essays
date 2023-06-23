@@ -8,8 +8,8 @@ theme = "paper"
   color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
-  github = 'github.com/isaac-maya'                 # github.com/YOUR_GITHUB_ID
-  linkedin = 'linkedin.com/in/isaac-maya/'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  github = 'isaac-maya'                 # github.com/YOUR_GITHUB_ID
+  linkedin = 'isaac-maya/'             # linkedin.com/in/YOUR_LINKEDIN_ID
   rss = true                                # show rss icon
 
   # home page profile
