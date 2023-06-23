@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://isaac-maya.github.io/essays/categories/</loc>
+    <loc>https://isaac-maya.github.io/essays/posts/first-post/</loc>
+    <lastmod>2023-06-23T13:55:28-06:00</lastmod>
   </url><url>
     <loc>https://isaac-maya.github.io/essays/</loc>
+    <lastmod>2023-06-23T13:55:28-06:00</lastmod>
+  </url><url>
+    <loc>https://isaac-maya.github.io/essays/posts/</loc>
+    <lastmod>2023-06-23T13:55:28-06:00</lastmod>
+  </url><url>
+    <loc>https://isaac-maya.github.io/essays/categories/</loc>
   </url><url>
     <loc>https://isaac-maya.github.io/essays/tags/</loc>
   </url>
