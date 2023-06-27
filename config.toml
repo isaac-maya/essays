@@ -15,7 +15,7 @@ theme = "paper"
   # home page profile
   #avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
   name = 'Isaac Maya'
-  #bio = 'YOUR_BIO'
+  bio = 'Connecting the dots'
 
 
   # misc
