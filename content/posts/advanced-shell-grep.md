@@ -6,5 +6,4 @@ draft: false
 
 # 
 
-{{< embed-pdf url="/pdfs/advanced-shell-grep.pdf" >}}
-
+{{< embed-pdf url="/static/pdfs/advanced-shell-grep.pdf" >}}
