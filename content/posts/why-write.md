@@ -6,7 +6,7 @@ draft: false
 
 AI can write lots of things, from code to jokes or even novels. ChatGPT can help you write that screenplay you've had in mind for years, yet haven't wrote a paragraph of it. It can help you redact emails as persuasive as those by Nigerian Princes asking for help.
 
-It could've written wrote this essay. The only requirement? Inputting the right prompts.
+It could've written this essay. The only requirement? Inputting the right prompts.
 
 Undoubtedly, AI's role in the written arts is reshaping our perceptions of what's possible. Its ability to augment output means that instead of generating one article each month, you can now churn out several pieces a day. 
 

@@ -3,7 +3,7 @@ title: "Advanced GREP"
 date: 2023-07-13T13:55:28-06:00
 draft: false
 ---
-![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)
+![Retro PC Picasso Style](/post/images/advanced_shell.png)
 
 ## 1. Recursive Search
 
