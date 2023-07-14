@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready text-sm lg:text-base"
+  style="--bg: #faf6f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Advanced GREP - Isaac Maya&#39;s Blog</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  <meta name="description" content="![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)
+1. Recursive Search -R searches all files and dirs in the directory.
+grep -R &#34;search_text&#34; /home/user/ 2. Search doesn’t include -v displays lines that do not match the pattern.
+grep -v &#34;search_text&#34; filename 3. Count -c returns the number of lines that match the pattern.
+grep -c &#34;search_text&#34; filename 4. Line Number -n displays the line numbers with output lines.
+grep -n &#34;search_text&#34; filename 5." />
+  <meta name="author" content="Isaac Maya" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://isaac-maya.github.io/essays/main.min.css" />
+
+  
+
+  
+   
+  <link rel="preload" as="image" href="https://isaac-maya.github.io/essays/theme.png" />
+
+  
+  
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://isaac-maya.github.io/essays/github.svg" />
+  
+  <link rel="preload" as="image" href="https://isaac-maya.github.io/essays/linkedin.svg" />
+  
+  <link rel="preload" as="image" href="https://isaac-maya.github.io/essays/rss.svg" />
+  
+  
+
+  
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"
+></script>
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://isaac-maya.github.io/essays/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://isaac-maya.github.io/essays/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.114.1">
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Advanced GREP" />
+<meta property="og:description" content="![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)
+1. Recursive Search -R searches all files and dirs in the directory.
+grep -R &#34;search_text&#34; /home/user/ 2. Search doesn’t include -v displays lines that do not match the pattern.
+grep -v &#34;search_text&#34; filename 3. Count -c returns the number of lines that match the pattern.
+grep -c &#34;search_text&#34; filename 4. Line Number -n displays the line numbers with output lines.
+grep -n &#34;search_text&#34; filename 5." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://isaac-maya.github.io/essays/posts/advanced-grep/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-13T13:55:28-06:00" />
+<meta property="article:modified_time" content="2023-07-13T13:55:28-06:00" />
+
+  
+  <meta itemprop="name" content="Advanced GREP">
+<meta itemprop="description" content="![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)
+1. Recursive Search -R searches all files and dirs in the directory.
+grep -R &#34;search_text&#34; /home/user/ 2. Search doesn’t include -v displays lines that do not match the pattern.
+grep -v &#34;search_text&#34; filename 3. Count -c returns the number of lines that match the pattern.
+grep -c &#34;search_text&#34; filename 4. Line Number -n displays the line numbers with output lines.
+grep -n &#34;search_text&#34; filename 5."><meta itemprop="datePublished" content="2023-07-13T13:55:28-06:00" />
+<meta itemprop="dateModified" content="2023-07-13T13:55:28-06:00" />
+<meta itemprop="wordCount" content="217">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Advanced GREP"/>
+<meta name="twitter:description" content="![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)
+1. Recursive Search -R searches all files and dirs in the directory.
+grep -R &#34;search_text&#34; /home/user/ 2. Search doesn’t include -v displays lines that do not match the pattern.
+grep -v &#34;search_text&#34; filename 3. Count -c returns the number of lines that match the pattern.
+grep -c &#34;search_text&#34; filename 4. Line Number -n displays the line numbers with output lines.
+grep -n &#34;search_text&#34; filename 5."/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://isaac-maya.github.io/essays/"
+      >Isaac Maya&#39;s Blog</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf6f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/isaac-maya"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/isaac-maya/"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://isaac-maya.github.io/essays/index.xml"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pb-24 pt-16 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">Advanced GREP</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Jul 13, 2023</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)</p>
+<h2 id="1-recursive-search">1. Recursive Search</h2>
+<p><strong>-R</strong> searches all files and dirs in the directory.</p>
+<pre tabindex="0"><code> grep -R &#34;search_text&#34; /home/user/
+</code></pre><h2 id="2-search-doesnt-include">2. Search doesn’t include</h2>
+<p><strong>-v</strong> displays lines that do not match the pattern.</p>
+<pre tabindex="0"><code>grep -v &#34;search_text&#34; filename
+</code></pre><h2 id="3-count">3. Count</h2>
+<p><strong>-c</strong> returns the number of lines that match the pattern.</p>
+<pre tabindex="0"><code>grep -c &#34;search_text&#34; filename
+</code></pre><h2 id="4-line-number">4. Line Number</h2>
+<p><strong>-n</strong> displays the line numbers with output lines.</p>
+<pre tabindex="0"><code>grep -n &#34;search_text&#34; filename
+</code></pre><h2 id="5-ignore-capitaliztion">5. Ignore capitaliztion</h2>
+<p><strong>-I</strong> makes the search case insensitive.</p>
+<pre tabindex="0"><code>grep -i &#34;search_text&#34; filename
+</code></pre><h2 id="6-extended-regexp">6. Extended Regexp</h2>
+<p><strong>-E</strong> lets you use additional regular expression features.</p>
+<pre tabindex="0"><code>grep -E &#39;pattern1|pattern2&#39; filename
+</code></pre><p>This command will search for lines containing either &ldquo;pattern1&rdquo; or &ldquo;pattern2&rdquo;.</p>
+<h2 id="7-file-pattern">7. File pattern</h2>
+<p><strong>-include, —exclude</strong> specify search based on filename.</p>
+<pre tabindex="0"><code>grep -R --include=&#34;*.txt&#34; &#34;search_text&#34; /home/user/
+</code></pre><p>This will search recursively but only look files ending with &ldquo;.txt&rdquo;.</p>
+<h2 id="8-word-regexp">8. Word-Regexp</h2>
+<p><strong>-w</strong> only returns lines where the pattern matches the whole “word”.</p>
+<pre tabindex="0"><code>grep -w &#34;search_text&#34; filename
+</code></pre><p>In you&rsquo;re looking for &ldquo;log&rdquo;, it won&rsquo;t return &ldquo;blog&rdquo; or &ldquo;logic&rdquo; because &ldquo;log&rdquo; is not a whole word in these instances.</p>
+<h2 id="9-after--before">9. After &amp; Before</h2>
+<p>Print the lines that appear after (<strong>-A</strong>), before (<strong>-B</strong>), or on either side (<strong>-C</strong>) of the matching pattern.</p>
+<pre tabindex="0"><code>grep -A 5 -B 5 &#34;search_text&#34; filename
+</code></pre><p>This command will print out 5 lines before and after each line that matches &ldquo;search_text&rdquo;.</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://isaac-maya.github.io/essays/posts/why-write/"
+      ><span>Why Bother Writing When AI Can Do It For You?</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://isaac-maya.github.io/essays/">Isaac Maya&#39;s Blog</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Theme Paper</a
+  >
+</footer>
+
+  </body>
+</html>

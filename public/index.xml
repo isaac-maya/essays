@@ -6,14 +6,30 @@
     <description>Recent content on Isaac Maya&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2023 13:55:28 -0600</lastBuildDate><atom:link href="https://isaac-maya.github.io/essays/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jul 2023 13:55:28 -0600</lastBuildDate><atom:link href="https://isaac-maya.github.io/essays/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://isaac-maya.github.io/essays/posts/first-post/</link>
-      <pubDate>Fri, 23 Jun 2023 13:55:28 -0600</pubDate>
+      <title>Advanced GREP</title>
+      <link>https://isaac-maya.github.io/essays/posts/advanced-grep/</link>
+      <pubDate>Thu, 13 Jul 2023 13:55:28 -0600</pubDate>
       
-      <guid>https://isaac-maya.github.io/essays/posts/first-post/</guid>
-      <description>1st Post! This is a test to verify locally the theme is working.</description>
+      <guid>https://isaac-maya.github.io/essays/posts/advanced-grep/</guid>
+      <description>![Retro PC Picasso Style]({{ site.BaseURL }}/post/images/advanced_shell.png)
+1. Recursive Search -R searches all files and dirs in the directory.
+grep -R &amp;#34;search_text&amp;#34; /home/user/ 2. Search doesn’t include -v displays lines that do not match the pattern.
+grep -v &amp;#34;search_text&amp;#34; filename 3. Count -c returns the number of lines that match the pattern.
+grep -c &amp;#34;search_text&amp;#34; filename 4. Line Number -n displays the line numbers with output lines.
+grep -n &amp;#34;search_text&amp;#34; filename 5.</description>
+    </item>
+    
+    <item>
+      <title>Why Bother Writing When AI Can Do It For You?</title>
+      <link>https://isaac-maya.github.io/essays/posts/why-write/</link>
+      <pubDate>Tue, 27 Jun 2023 13:50:28 -0600</pubDate>
+      
+      <guid>https://isaac-maya.github.io/essays/posts/why-write/</guid>
+      <description>AI can write lots of things, from code to jokes or even novels. ChatGPT can help you write that screenplay you&amp;rsquo;ve had in mind for years, yet haven&amp;rsquo;t wrote a paragraph of it. It can help you redact emails as persuasive as those by Nigerian Princes asking for help.
+It could&amp;rsquo;ve written wrote this essay. The only requirement? Inputting the right prompts.
+Undoubtedly, AI&amp;rsquo;s role in the written arts is reshaping our perceptions of what&amp;rsquo;s possible.</description>
     </item>
     
   </channel>

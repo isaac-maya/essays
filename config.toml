@@ -2,7 +2,7 @@ baseURL = "https://isaac-maya.github.io/essays/"
 languageCode = "en-us"
 title = "Isaac Maya's Blog"
 theme = "paper"
-
+canonifyURLs = true
 
 [params]
   # color style
