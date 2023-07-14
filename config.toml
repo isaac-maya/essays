@@ -1,7 +1,6 @@
 baseURL = "https://isaac-maya.github.io/essays/"
 languageCode = "en-us"
 title = "Isaac Maya's Blog"
-#theme = "paper"
 theme = ["hugo-embed-pdf-shortcode", "paper"]
 enableInlineShortcodes = true
 
