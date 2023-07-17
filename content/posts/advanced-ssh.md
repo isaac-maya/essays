@@ -1,6 +1,6 @@
 ---
 title: "Advanced GREP"
-date: 2023-07-17T13:55:28-06:00
+date: 2023-07-17
 draft: false
 ---
 
