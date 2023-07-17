@@ -4,7 +4,7 @@ date: 2023-07-17T13:55:28-06:00
 draft: false
 ---
 
-![Retro PC Picasso Style](../../images/advanced_shell.png)
+![Retro PC Picasso Style](../../images/advanced_ssh.png)
 
 ## 1. Remote Command Execution
 
