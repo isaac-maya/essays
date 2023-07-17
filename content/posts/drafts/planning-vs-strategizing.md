@@ -162,3 +162,86 @@ A notable example of the planning trap can be drawn from Southwest Airlines' str
 To embrace strategy is to accept the inherent discomfort that accompanies it. As you navigate your personal or professional journey, the strategy you develop should involve a clear logic: what needs to be true for your strategy to work concerning your abilities, the circumstances, and potential obstacles. The strategy should be kept clear and simple, ideally fitting on a single page.
 
 Remember, strategy is a journey that requires constant adjustments based on the unfolding realities of life. Embracing the discomfort associated with uncertainty is not a flaw but rather a mark of courage. Planning, while less anxiety-inducing, merely guarantees participation, not winning. Strategy, on the other hand, offers the best possible chance of success. As Martin astutely concludes, "If you plan, that’s a way to guarantee losing. If you do strategy, it gives you the best possible chance of winning."
+
+
+
+
+[Carousel Slide 1]
+
+Title: The Perilous Intersection of Strategy and Planning: A Critical Analysis
+
+Description: In this carousel, we delve into the insightful words of Roger Martin, renowned thinker, as he distinguishes between strategy and planning. Join us as we explore the collision of these two concepts and uncover the underlying differences that can shape the success of your business.
+
+[Carousel Slide 2]
+
+Title: The Collision of Strategy and Planning
+
+Description: Planning and strategy are often intertwined, causing confusion in the business world. Discover why strategic planning may not always capture the essence of true strategy. Learn from Roger Martin as he highlights the importance of strategic coherence and the potential pitfalls of relying solely on well-intentioned initiatives.
+
+[Carousel Slide 3]
+
+Title: Strategy Vs. Planning: The Underlying Difference
+
+Description: Understand the fundamental disparity between strategy and planning. Strategy involves making cohesive choices that position your business uniquely for success. Planning, on the other hand, may consist of unrelated objectives lacking an overarching strategic coherence. Explore why a sound strategy is essential for outshining competitors.
+
+[Carousel Slide 4]
+
+Title: The Comforting Nature of Planning
+
+Description: Delve into the allure of planning and why it can be enticing to focus on elements within our control. Roger Martin explains how planning revolves around resource allocation, allowing us to feel like customers of our own costs. Discover why strategy, with its inherent uncertainty, is riskier yet potentially more rewarding in the long run.
+
+[Carousel Slide 5]
+
+Title: The Planning Trap: A Case Study
+
+Description: Learn from a real-world example as we contrast the planning approaches of traditional U.S. air carriers with that of Southwest Airlines. Understand the dangers of falling into the planning trap and discover how Southwest's coherent strategy propelled them to become a leading airline through unique choices and a customer-centric approach.
+
+[Carousel Slide 6]
+
+Title: Escaping the Planning Trap: Embracing the Strategy Journey
+
+Description: Embrace the discomfort that accompanies strategy and discover the path to success. Explore the role of a leader in laying out a coherent strategic logic and understanding the unfolding realities of the business landscape. Learn why a clear and simple strategy, adaptable to changing circumstances, offers the best chance of achieving victory.
+
+[Carousel Slide 7]
+
+Title: The Great Divide Between Strategy and Planning: An Essential Life Skill
+
+Description: Explore how the concepts of strategy and planning extend beyond the business world. Discover how Roger Martin's insights can be applied to personal lives and individual projects. Understand the meeting point between strategy and planning and gain essential knowledge that can shape your personal and professional journey.
+
+[Carousel Slide 8]
+
+Title: Strategy and Planning: The Meeting Point
+
+Description: Delve into the distinction between strategy and planning, exploring how the two concepts have become intertwined over time. Gain a clear understanding of what strategy truly entails and why it is often misunderstood when combined with planning. Unlock the potential for success by differentiating these crucial elements.
+
+[Carousel Slide 9]
+
+Title: The Fundamental Difference
+
+Description: Learn how strategy sets you apart by providing an integrative set of choices that position you for success. Discover the importance of coherence, achievability, and actionable steps in a robust strategy. Contrast this with planning, which may lack the necessary alignment to achieve a common goal.
+
+[Carousel Slide 10]
+
+Title: The Comfort Zone of Planning
+
+Description: Understand why planning can be appealing due to its perceived control and measurable outcomes. Explore the danger of becoming trapped in the comfort zone of planning, focusing solely on controllable actions and decisions. Embrace the inherent risk and discomfort of strategy to unlock greater potential.
+
+[Carousel Slide 11]
+
+Title: The Pitfall of the Planning Trap: A Real-World Example
+
+Description: Explore a tangible example of the planning trap by comparing the approaches of traditional U.S. air carriers with Southwest Airlines. Discover how Southwest's strategic choices led to their remarkable success, while traditional carriers focused on planning routes and logistics. Uncover the transformative power of a coherent strategy.
+
+[Carousel Slide 12]
+
+Title: Charting a Path Out of the Planning Trap: Embracing the Strategy Journey
+
+Description: Embrace the journey of strategy by accepting the discomfort that comes with uncertainty. Learn to develop a clear and simple strategy that aligns with your abilities, circumstances, and potential obstacles. Understand that strategy requires constant adjustment based on unfolding realities, providing the best possible chance of success.
+
+[Carousel Slide 13]
+
+Title: The Best Possible Chance of Winning
+
+Description: Reflect on the power of strategy and the potential for victory it brings. Understand that planning guarantees participation but not necessarily success. Embrace strategy as the means to achieve the best possible chance of winning, as Roger Martin eloquently concludes. Step into the realm of strategy and unlock your full potential.
+
+Note: Each carousel slide should include relevant visuals, such as images representing strategy, planning, business, personal development, and success, to enhance engagement and visual appeal.
