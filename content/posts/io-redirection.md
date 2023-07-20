@@ -1,17 +1,17 @@
 	
 ---
-title: “I/O & Redirection”
+title: I/O & Redirection
 date: 2023-07-20
 draft: false
 ---
 
-![Retro PC Picasso Style](../../images/advanced_ssh.png)
+![Retro PC Picasso Style](../../images/io.png)
 
 ## 1. Input/Output (I/O)
 
 I/O operations typically involve three data streams: Standard Input (stdin), Standard Output (stdout), and Standard Error (stderr).
 
-IOIMAGE![Retro PC Picasso Style](../../images/advanced_ssh.png)
+![Diagram](../../images/stdin-stdout-stderr.png)
 
 ## 2. Redirecting Output
 
