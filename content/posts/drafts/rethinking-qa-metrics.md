@@ -36,12 +36,6 @@ Suggest resources for further learning about QA metrics and reports.
 	Slide 14: Conclusion
 Summary: "QA metrics and reports provide valuable insights into the testing process and product quality, driving continuous improvement."
 
-Now create one that goes beyond metrics for how many test cases were executed. The idea is to relief the burden of number of test cases executed pero team member, because I believe this can lead to burnout and closing tickets for the sake of it and not really assuring quality or testing a feature correctly 
-
-it's essential to go beyond basic metrics to truly ensure quality. Rethinking QA Metrics":
-	Slide 1: Introduction
-	Title: "Quality Over Quantity: Rethinking QA Metrics"
-	Brief Description: "Discover how a focus on quality, not quantity, can enhance your QA process and prevent team burnout."
 	Slide 2: The Problem with Quantity Metrics
 	Description: "Relying solely on quantity-based metrics, like the number of test cases executed, can lead to burnout and may not accurately reflect software quality."
 	Slide 3: The Quality-Quantity Paradox
@@ -74,6 +68,12 @@ Absolutely. A focus on more comprehensive and qualitative metrics can certainly 
 **Slide 1: Introduction**
 Title: "Beyond the Numbers: Rethinking QA Metrics"
 Description: "An introduction to the concept of focusing on quality-oriented metrics in software QA, emphasizing the limitations of a purely quantitative approach."
+Slide 1: Introduction
+Title: "Quality Over Quantity: Rethinking QA Metrics"
+Brief Description: "Discover how a focus on quality, not quantity, can enhance your QA process and prevent team burnout."
+
+
+
 
 **Slide 2: The Shortcomings of Basic Metrics**
 Title: "The Myth of Numerical Superiority"
