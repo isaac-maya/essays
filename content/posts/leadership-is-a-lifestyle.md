@@ -7,7 +7,7 @@ draft: false
 ## What I believed leadership was
 As a kid, I used to equate leadership with authority. The notion that leaders were in charge was commonplace in my mind. I thought leadership was all about the whistle around your neck; it was all about giving orders.
 
-Of course, humans breed leader individuals everywhere, from my grandma to young kids in kindergarten. But at that moment, for me, it was easier to identify such figures in soccer coaches.
+Of course, humans develop leader individuals everywhere, from my grandma to young kids in kindergarten. But at that moment, for me, it was easier to identify such figures in soccer coaches.
 
 Most coaches seemed to have a secret recipe, an understanding that went beyond the player's grasp. See how I started the last sentence with the word most? This is key to a eureka moment that was beginning to slow cook
 ## Eureka
