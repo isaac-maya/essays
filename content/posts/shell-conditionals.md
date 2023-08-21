@@ -1,14 +1,15 @@
 ---
-title: "Rethinking QA Metrics"
+title: "Shell Scripting pt.1"
 date: 2023-07-25
 draft: true
 ---
+# Conditionals
 
-Sure, here's an explanation of each:
+Conditionals are used to make decisions in the script, and the `if`, `elif` (else if), and `else` statements are used to accomplish this. Here are some examples:
 
-1. **Conditionals:**
 
-Conditionals in bash scripting are used to make decisions in the script, and the `if`, `elif` (else if), and `else` statements are used to accomplish this. Here's a basic example:
+
+## 1. Condition tests
 
 ```bash
 if [ "$variable" -lt 10 ]
@@ -24,11 +25,8 @@ fi
 
 In this script, `-lt` stands for "less than", `-eq` for "equal to". These are condition tests. If the condition after `if` is true, the commands between `then` and `elif` (or `else` if there's no `elif`) get executed. If the condition is false, we move to the next condition (`elif` or `else`).
 
-1. **Advanced Conditionals:**
 
-   In addition to basic comparisons, you can use more advanced conditional expressions with `if`. Here are a few examples:
-
-   - String comparisons: 
+## 2. String comparisons:
 
    ```bash
    if [[ "$str1" == "$str2" ]]; then
@@ -38,7 +36,7 @@ In this script, `-lt` stands for "less than", `-eq` for "equal to". These are co
    fi
    ```
 
-   - Checking if a file exists:
+## 3. Checking if a file exists:
 
    ```bash
    if [[ -e filename ]]; then
@@ -46,7 +44,7 @@ In this script, `-lt` stands for "less than", `-eq` for "equal to". These are co
    fi
    ```
 
-   - Using logical operators (`&&` for "and", `||` for "or"):
+## 4. Using logical operators (`&&` for "and", `||` for "or"):
 
    ```bash
    if [[ "$str1" == "value1" && "$str2" == "value2" ]]; then
@@ -54,7 +52,7 @@ In this script, `-lt` stands for "less than", `-eq` for "equal to". These are co
    fi
    ```
 
-1. **Advanced Conditionals:**
+## 5. Case statements
 
    Bash supports `case` statements, which can simplify complex conditional logic. Here's an example:
 
@@ -71,6 +69,6 @@ In this script, `-lt` stands for "less than", `-eq` for "equal to". These are co
        ;;
    esac
    ```
-   
+
    The `*` serves as the default case if no other patterns match. Each case ends with `;;`.
 
