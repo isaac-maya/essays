@@ -1,5 +1,5 @@
 ---
-title: "Shell Scripting pt.1"
+title: "Shell Scripting pt.2"
 date: 2023-07-25
 draft: true
 ---
