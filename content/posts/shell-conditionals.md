@@ -1,6 +1,6 @@
 ---
 title: "Shell Scripting pt.2"
-date: 2023-07-25
+date: 2023-08-20
 draft: true
 ---
 # Conditionals
