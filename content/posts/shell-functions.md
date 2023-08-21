@@ -1,6 +1,6 @@
 ---
 title: "Shell Scripting pt.1"
-date: 2023-08-2
+date: 2023-08-02
 draft: false
 ---
 # Functions
