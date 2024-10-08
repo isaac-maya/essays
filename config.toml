@@ -15,8 +15,8 @@ canonifyURLs = true
 
   # home page profile
   #avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
-  name = 'theisaacmaya@icloud.com'
-  bio = 'Connecting the dots'
+  name = 'Connecting the dots'
+  bio = 'theisaacmaya@icloud.com'
 
 
   # misc
