@@ -26,7 +26,4 @@ canonifyURLs = true
   #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   math = true   
 
-
-[params.giscus]
-  theme = 'dark'
   
